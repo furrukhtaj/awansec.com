@@ -1,0 +1,84 @@
+title: AwanSec
+description: Digression is Inevitable !!!
+author: Furrukh Taj
+github: https://github.com/furrukhtaj
+about: Infosec Enthusiast 
+disqus_shortname: furrukh
+google_analytics: UA-128945653-1
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+    
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/furrukh_taj"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/furrukhtajawan/"
+    - icon: fa-github
+      link: "https://github.com/furrukhtaj"
+
+share:
+  twitter_username: furrukh_taj
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Categories
+      url: /categories/
+    - text: XML Feed
+      url: /feed.xml
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+
+
+url: "https://awansec.com"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
