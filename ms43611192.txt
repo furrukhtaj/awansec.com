@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "awansec.com",
-  "Id": "51fbedee-bba9-48e6-a1ba-4ee6d3829e7d"
-}
